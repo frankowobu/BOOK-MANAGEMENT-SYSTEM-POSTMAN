@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "9774cbe2-feb9-4962-88a9-17b030d51533",
+		"name": "BookApplication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27122545",
+		"_collection_link": "https://interstellar-water-295010.postman.co/workspace/f95875d0-91fd-4eaf-8bab-ed4f1602f328/collection/27122545-9774cbe2-feb9-4962-88a9-17b030d51533?action=share&source=collection_link&creator=27122545"
+	},
+	"item": [
+		{
+			"name": "AUTHOR",
+			"item": [
+				{
+					"name": "CREATE-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GET-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE-REQUEST",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GET-ALL-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BOOK",
+			"item": [
+				{
+					"name": "CREATE-BOOK",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "SEARCH-BOOK-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE-BOOK-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE-BOOK-AUTHOR",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
