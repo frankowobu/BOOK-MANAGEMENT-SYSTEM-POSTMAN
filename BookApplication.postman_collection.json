@@ -1,0 +1,684 @@
+{
+	"info": {
+		"_postman_id": "4d7a0152-13e5-4924-b478-d1122daf4588",
+		"name": "BookApplication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27122545",
+		"_collection_link": "https://interstellar-water-295010.postman.co/workspace/Team-Workspace~2b6574b1-d1cf-43c0-81ec-697de50cfb82/collection/27122545-4d7a0152-13e5-4924-b478-d1122daf4588?action=share&source=collection_link&creator=27122545"
+	},
+	"item": [
+		{
+			"name": "AUTHOR",
+			"item": [
+				{
+					"name": "CREATE-AUTHOR",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"chinua\",\r\n    \"lastName\":\"achiebe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/author/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"author",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET-AUTHOR",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDc5NTkxMzB9.N-NZmltTl2MlrTQX8IyqkSxuSQ4L3miX9iMwFsRlyKESAaC1NU9_QOZZaKHtK6WrwX1qig3WRqguPYsV6s-0Eg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/author/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"author",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE-REQUEST",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDc5NTkxMzB9.N-NZmltTl2MlrTQX8IyqkSxuSQ4L3miX9iMwFsRlyKESAaC1NU9_QOZZaKHtK6WrwX1qig3WRqguPYsV6s-0Eg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/author/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"author",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE-AUTHOR",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDc5NTkxMzB9.N-NZmltTl2MlrTQX8IyqkSxuSQ4L3miX9iMwFsRlyKESAaC1NU9_QOZZaKHtK6WrwX1qig3WRqguPYsV6s-0Eg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1,\r\n    \"firstName\":\"chinua\",\r\n    \"lastName\":\"achiebee\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/author/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"author",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET-ALL-AUTHOR",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/author",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"author"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET-ALL-AUTHOR-BOOKS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/author/1/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"author",
+								"1",
+								"books"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BOOK",
+			"item": [
+				{
+					"name": "CREATE-BOOK",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"things fall apart\",\r\n    \"pages\":256,\r\n    \"summary\":\"adsfdgfknnbcghjnj\",\r\n    \"authorId\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/book",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SEARCH-BOOK",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/book/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"book",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE-BOOK",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDc5NTkxMzB9.N-NZmltTl2MlrTQX8IyqkSxuSQ4L3miX9iMwFsRlyKESAaC1NU9_QOZZaKHtK6WrwX1qig3WRqguPYsV6s-0Eg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1,\r\n    \"title\":\"things fall apart\",\r\n    \"pages\":156,\r\n    \"summary\":\"adsfdgfknnbcghjnj\",\r\n    \"authorId\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/book",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE-BOOK",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDc5NTkxMzB9.N-NZmltTl2MlrTQX8IyqkSxuSQ4L3miX9iMwFsRlyKESAaC1NU9_QOZZaKHtK6WrwX1qig3WRqguPYsV6s-0Eg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/book/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"book",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USER",
+			"item": [
+				{
+					"name": "create-user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"frank\",\r\n    \"lastName\":\"owobu\",\r\n    \"email\":\"frankowobu11@gmailcom\",\r\n    \"password\":1234\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/user/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"user",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login-user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"frankowobu11@gmailcom\",\r\n    \"password\":1234\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/authenticate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BORROWED-BOOK",
+			"item": [
+				{
+					"name": "add-Book-Borrowed",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"studentId\":1,\r\n    \"booksId\":1,\r\n    \"returnDays\":10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/borrowed",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"borrowed"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get-BorrowedBooks",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/borrowed",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"borrowed"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "STUDENT",
+			"item": [
+				{
+					"name": "Create-Student",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"angel\",\r\n    \"email\":\"angel@gmail.com\",\r\n    \"department\":\"mechanical\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get-Student",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/student/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"student",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete-Student",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/student/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"student",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get-All-student",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RETURNED-BOOK",
+			"item": [
+				{
+					"name": "Returned-Book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua293b2J1MTFAZ21haWxjb20iLCJleHAiOjE3MDgwMDY3MjV9.V9YSckNUntJlLcgDlFpfQc7Txm6gqjpZoyaPUg23qRq0wmko10tXzu9i8usMCJG1787bjMqUon99feeFDgZLiQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"studentId\":1,\r\n    \"bookId\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/returned",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"returned"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
