@@ -4,7 +4,11 @@
 		"name": "BookApplication",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27122545",
+<<<<<<< HEAD
 		"_collection_link": "https://interstellar-water-295010.postman.co/workspace/Team-Workspace~2b6574b1-d1cf-43c0-81ec-697de50cfb82/collection/27122545-4d7a0152-13e5-4924-b478-d1122daf4588?action=share&source=collection_link&creator=27122545"
+=======
+		"_collection_link": "https://interstellar-water-295010.postman.co/workspace/cd40c08b-4f66-4b9e-95eb-90f4c5fca915/collection/27122545-4d7a0152-13e5-4924-b478-d1122daf4588?action=share&source=collection_link&creator=27122545"
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 	},
 	"item": [
 		{
@@ -13,6 +17,7 @@
 				{
 					"name": "CREATE-AUTHOR",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -45,6 +50,12 @@
 								"author",
 								""
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -52,6 +63,7 @@
 				{
 					"name": "GET-AUTHOR",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -75,6 +87,12 @@
 								"author",
 								"1"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -82,6 +100,7 @@
 				{
 					"name": "DELETE-REQUEST",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -105,6 +124,12 @@
 								"author",
 								"1"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -112,6 +137,7 @@
 				{
 					"name": "UPDATE-AUTHOR",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -144,6 +170,12 @@
 								"author",
 								""
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -151,6 +183,7 @@
 				{
 					"name": "GET-ALL-AUTHOR",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -173,6 +206,12 @@
 							"path": [
 								"author"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -180,6 +219,7 @@
 				{
 					"name": "GET-ALL-AUTHOR-BOOKS",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -205,6 +245,10 @@
 								"books"
 							]
 						}
+=======
+						"method": "GET",
+						"header": []
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 					},
 					"response": []
 				}
@@ -216,6 +260,7 @@
 				{
 					"name": "CREATE-BOOK",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -247,6 +292,12 @@
 							"path": [
 								"book"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -254,6 +305,7 @@
 				{
 					"name": "SEARCH-BOOK",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -277,6 +329,12 @@
 								"book",
 								"1"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -284,6 +342,7 @@
 				{
 					"name": "UPDATE-BOOK",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -315,6 +374,12 @@
 							"path": [
 								"book"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -322,6 +387,7 @@
 				{
 					"name": "DELETE-BOOK",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -345,6 +411,12 @@
 								"book",
 								"1"
 							]
+=======
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 						}
 					},
 					"response": []
@@ -368,6 +440,7 @@
 				{
 					"name": "create-user",
 					"request": {
+<<<<<<< HEAD
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -391,12 +464,17 @@
 								"signup"
 							]
 						}
+=======
+						"method": "GET",
+						"header": []
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 					},
 					"response": []
 				},
 				{
 					"name": "login-user",
 					"request": {
+<<<<<<< HEAD
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -419,6 +497,10 @@
 								"authenticate"
 							]
 						}
+=======
+						"method": "GET",
+						"header": []
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 					},
 					"response": []
 				}
@@ -430,6 +512,7 @@
 				{
 					"name": "add-Book-Borrowed",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -491,6 +574,10 @@
 								"borrowed"
 							]
 						}
+=======
+						"method": "GET",
+						"header": []
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 					},
 					"response": []
 				}
@@ -502,6 +589,7 @@
 				{
 					"name": "Create-Student",
 					"request": {
+<<<<<<< HEAD
 						"auth": {
 							"type": "bearer",
 							"bearer": [
@@ -632,6 +720,10 @@
 								"student"
 							]
 						}
+=======
+						"method": "GET",
+						"header": []
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 					},
 					"response": []
 				}
@@ -641,6 +733,7 @@
 			"name": "RETURNED-BOOK",
 			"item": [
 				{
+<<<<<<< HEAD
 					"name": "Returned-Book",
 					"request": {
 						"auth": {
@@ -675,6 +768,12 @@
 								"returned"
 							]
 						}
+=======
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+>>>>>>> 32bb33320779b8b172ef44b2f5a09058073cd06d
 					},
 					"response": []
 				}
